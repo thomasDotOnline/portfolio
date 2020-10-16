@@ -421,6 +421,11 @@ header p::after {
     order: 1;
     margin: 0 auto;
   }
+  .button {
+    display: block;
+    width: 200px;
+    margin: 10px 0;
+  }
 }
 
 .skillsContainer {
