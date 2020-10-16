@@ -261,8 +261,20 @@ h3 {
   margin-top: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Piazzolla", serif;
+}
+
+p,
+a {
+  font-family: "Ubuntu", sans-serif;
+}
+
 p {
   margin: 0;
+  margin-top: 10px;
   font-size: 2.5rem;
 }
 
@@ -285,28 +297,30 @@ li {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #0a0425;
 }
 
 a:hover {
-  color: #957fef;
+  color: #2f0e43;
 }
 
 .button {
   padding: 10px 15px;
   margin-right: 10px;
-  background-color: yellow;
+  background: linear-gradient(145deg, #ffe8dc, #d7c3b9);
+  box-shadow: 5px 5px 4px #706661, -5px -5px 4px #ffffff;
   border-radius: 5%;
   font-size: 2.5rem;
 }
 
 .button:hover {
-  background-color: yellowgreen;
+  background-color: #e1b7a3;
   box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
 .button:active {
-  background-color: green;
+  background: linear-gradient(145deg, #d7c3b9, #ffe8dc);
+  box-shadow: 5px 5px 4px #706661, -5px -5px 4px #ffffff;
 }
 
 .imageContainer img {
@@ -376,6 +390,10 @@ header p::after {
 
 .project .imageContainer.project1 img {
   border-radius: 3%;
+}
+
+.project .imageContainer.project2 img {
+  border-radius: 2%;
 }
 
 .project .projectContent.project3 {
@@ -459,4 +477,8 @@ footer {
   background-attachment: fixed;
   background-image: url(../assets/furleyBg.png);
   padding: 25px 0;
+}
+
+footer a {
+  color: #190A5C;
 }
