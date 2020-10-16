@@ -1,0 +1,61 @@
+.projectsContainer {
+  background-attachment: fixed;
+  background-image: url(../assets/furleyBg.png);
+  padding: 50px 0;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 0;
+  justify-content: space-between;
+
+  .projectContent {
+    max-width: 500px;
+    p {
+      margin-bottom: 25px;
+    }
+  }
+
+  .projectContent.project1 {
+    order: 2;
+    margin-left: 15px;
+  }
+
+  .imageContainer.project1 {
+    order: 1;
+    img {
+      border-radius: 3%;
+    }
+  }
+
+  .projectContent.project3 {
+    order: 2;
+    margin-left: 15px;
+  }
+
+  .imageContainer.project3 {
+    order: 1;
+    img {
+      border-radius: 5%;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .project {
+
+    .projectContent,
+    .imageContainer {
+        margin: 0 auto;
+    }
+
+    .projectContent.project1,
+    .imageContainer.project1,
+    .projectContent.project3,
+    .imageContainer.project3 {
+      order: 1;
+      margin: 0 auto;
+    }
+  }
+}

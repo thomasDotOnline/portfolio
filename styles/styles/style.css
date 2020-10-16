@@ -1,0 +1,462 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f7f9fa;
+  background-attachment: fixed;
+  background-image: url(../assets/diamondUpholstery.png);
+  color: #0a0425;
+}
+
+h1 {
+  margin: 0;
+  font-size: 6rem;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #957fef;
+}
+
+.button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: yellow;
+  border-radius: 5%;
+  font-size: 2.5rem;
+}
+
+.button:hover {
+  background-color: yellowgreen;
+  box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button:active {
+  background-color: green;
+}
+
+.imageContainer img {
+  max-height: 500px;
+}
+
+header {
+  padding: 50px 0;
+  background-attachment: fixed;
+  background-image: url(../assets/furleyBg.png);
+  text-align: center;
+}
+
+header p::before {
+  content: "{";
+}
+
+header p::after {
+  content: "}";
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  background-attachment: fixed;
+  justify-content: space-around;
+}
+
+.profile .imageContainer {
+  max-width: 400px;
+}
+
+.profile .profileContent {
+  max-width: 400px;
+}
+
+.projectsContainer {
+  background-attachment: fixed;
+  background-image: url(../assets/furleyBg.png);
+  padding: 50px 0;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 0;
+  justify-content: space-between;
+}
+
+.project .projectContent {
+  max-width: 500px;
+}
+
+.project .projectContent p {
+  margin-bottom: 25px;
+}
+
+.project .projectContent.project1 {
+  order: 2;
+  margin-left: 15px;
+}
+
+.project .imageContainer.project1 {
+  order: 1;
+}
+
+.project .imageContainer.project1 img {
+  border-radius: 3%;
+}
+
+.project .projectContent.project3 {
+  order: 2;
+  margin-left: 15px;
+}
+
+.project .imageContainer.project3 {
+  order: 1;
+}
+
+.project .imageContainer.project3 img {
+  border-radius: 5%;
+}
+
+@media (max-width: 1000px) {
+  .project .projectContent,
+  .project .imageContainer {
+    margin: 0 auto;
+  }
+  .project .projectContent.project1,
+  .project .imageContainer.project1,
+  .project .projectContent.project3,
+  .project .imageContainer.project3 {
+    order: 1;
+    margin: 0 auto;
+  }
+}
+
+.skillsContainer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  text-align: center;
+  width: 20%;
+  min-width: 100px;
+  margin: 30px 0;
+}
+
+.skills li i {
+  display: block;
+  text-align: center;
+  font-size: 8rem;
+}
+
+.skills li p {
+  font-size: 2rem;
+}
+
+.contactContainer {
+  background-attachment: fixed;
+  background-image: url(../assets/furleyBg.png);
+  padding: 25px 0;
+}
+
+.contactContainer .contact {
+  text-align: center;
+}
+
+.contactContainer .contact h2 {
+  margin-bottom: 20px;
+}
+
+.contactContainer .contact ul {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 3.7rem;
+}
+
+footer {
+  text-align: center;
+  background-attachment: fixed;
+  background-image: url(../assets/furleyBg.png);
+  padding: 25px 0;
+}

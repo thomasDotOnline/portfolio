@@ -1,0 +1,15 @@
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-attachment: fixed;
+    justify-content: space-around;
+
+    .imageContainer {
+        max-width: 400px;
+    }
+
+    .profileContent {
+        max-width: 400px;
+    }
+}

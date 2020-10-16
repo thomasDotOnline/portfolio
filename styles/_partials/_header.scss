@@ -1,0 +1,16 @@
+header {
+    padding: 50px 0;
+    background-attachment: fixed;
+    background-image: url(../assets/furleyBg.png);
+    text-align: center;
+
+    p {
+        &::before {
+            content: "{";
+        }
+
+        &::after {
+            content: "}";
+        }
+    }
+}
