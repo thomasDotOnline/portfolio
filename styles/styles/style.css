@@ -243,6 +243,7 @@ body {
   background-attachment: fixed;
   background-image: url(../assets/diamondUpholstery.png);
   color: #0a0425;
+  line-height: 1.5;
 }
 
 h1 {
@@ -262,11 +263,11 @@ h3 {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Piazzolla", serif;
 }
 
+h3,
 p,
 a {
   font-family: "Ubuntu", sans-serif;
@@ -275,7 +276,7 @@ a {
 p {
   margin: 0;
   margin-top: 10px;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 img {
@@ -311,6 +312,7 @@ a:hover {
   box-shadow: 5px 5px 4px #706661, -5px -5px 4px #ffffff;
   border-radius: 5%;
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .button:hover {
@@ -345,17 +347,17 @@ header p::after {
 .profile {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 0;
+  padding: 100px 0;
   background-attachment: fixed;
   justify-content: space-around;
 }
 
 .profile .imageContainer {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .profile .profileContent {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .projectsContainer {
@@ -364,11 +366,20 @@ header p::after {
   padding: 50px 0;
 }
 
+.projectsContainer .sectionHeader {
+  width: 100px;
+  margin: 0 auto;
+}
+
 .project {
   display: flex;
   flex-wrap: wrap;
-  padding: 25px 0;
-  justify-content: space-between;
+  padding: 50px 0;
+  justify-content: space-around;
+}
+
+.project .friends {
+  margin-bottom: 40px;
 }
 
 .project .projectContent {
@@ -423,7 +434,7 @@ header p::after {
   }
   .button {
     display: block;
-    width: 200px;
+    width: 220px;
     margin: 10px 0;
   }
 }
