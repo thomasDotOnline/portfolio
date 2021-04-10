@@ -301,8 +301,8 @@ a {
   color: #0a0425;
 }
 
-a:hover {
-  color: #2f0e43;
+a:hover, a:focus {
+  color: #491e66;
 }
 
 .button {
@@ -354,6 +354,10 @@ header p::after {
 
 .profile .imageContainer {
   max-width: 500px;
+}
+
+.profile .imageContainer img {
+  box-shadow: 10px 10px 3px 1px;
 }
 
 .profile .profileContent {
@@ -467,9 +471,35 @@ header p::after {
   font-size: 2rem;
 }
 
+.reads {
+  background: url(../assets/furleyBg.png);
+  padding: 50px 0;
+}
+
+.reads h2 {
+  text-align: center;
+}
+
+.reads ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+
+.reads ul li {
+  width: calc(90% / 5);
+  margin: 15px 0px;
+  min-width: 150px;
+}
+
+.reads ul li img {
+  width: 100%;
+  box-shadow: 10px 10px 3px 1px;
+}
+
 .contactContainer {
   background-attachment: fixed;
-  background-image: url(../assets/furleyBg.png);
   padding: 25px 0;
 }
 

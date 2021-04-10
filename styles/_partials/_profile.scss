@@ -7,6 +7,10 @@
 
     .imageContainer {
         max-width: 500px;
+
+        img {
+            box-shadow: 10px 10px 3px 1px;
+        }
     }
 
     .profileContent {

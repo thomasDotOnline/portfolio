@@ -1,0 +1,25 @@
+.reads {
+    background: url(../assets/furleyBg.png);
+    padding: 50px 0;
+
+    h2 {
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px 0;
+    
+        li {
+            width: calc(90% / 5);
+            margin: 15px 0px;
+            min-width: 150px;
+
+            img {
+                width: 100%;
+                box-shadow: 10px 10px 3px 1px;
+            }
+        }
+    }
+}
